@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizzVerse</title>
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="flex">
+
+    
+
+    <div class="wrapper">
+       
+        <div class="quiz-container">
+            <div class="quiz-head">
+                <h1 class="quiz-title">QuizzVerse 💡</h1>
+               <div class="quiz-score flex">
+                <span id="correct-score"></span>/<span id="total-question"></span>
+               </div>
+            </div> 
+            <div class="quiz-body">
+                <h2 class="quiz-question" id="question">
+                    <!-- What is the full form of HTTP? -->
+                    <br><span class="category"></span>
+
+                </h2>
+                <ul class="quiz-options">
+                    <!-- <li>1. Hyper text transform package</li>
+                    <li>1. Hyper text transform package</li>
+                    <li>1. Hyper text transform package</li>
+                    <li>1. Hyper text transform package</li> -->
+
+                </ul>
+                <div id="result">
+                    <!-- result here  -->
+
+                </div>
+            </div> 
+            <div class="quiz-footer">
+                <button id="check-answer" type="button">Check Answer</button>
+                <button id="play-again" type="button" >Play Again</button>
+               
+            </div> 
+
+        </div>
+
+
+       
+    </div>
+   
+
+    <script src="app.js"></script>
+    <script src="https://kit.fontawesome.com/2c80a00566.js" crossorigin="anonymous"></script>
+    
+</body>
+</html>
